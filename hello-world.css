@@ -1,6 +1,21 @@
 body{
-    background-colour: white;
+    background-color: #fffbbf;
+}
+p{
+    color: #632c0c;
+    font-size: 10px;
 }
 h1{
-    color: orangered
+    color: #ff0a70;
+    font-size: 50px;
+}
+h2{
+    color: #5b19ff;
+    font-size: 40px;
+}
+.red-heading{
+    color: red;
+}
+#new-font{
+    font-family: fantasy, cursive, serif;
 }
