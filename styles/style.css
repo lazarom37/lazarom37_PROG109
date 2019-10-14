@@ -3,7 +3,7 @@ body{
 }
 p{
     color: #632c0c;
-    font-size: 10px;
+    font-size: 25px;
 }
 h1{
     color: #ff0a70;
@@ -15,6 +15,11 @@ h2{
 }
 .red-heading{
     color: red;
+}
+header p{
+    font-weight: bold;
+    font-style: italic;
+    color: blue;
 }
 #new-font{
     font-family: fantasy, cursive, serif;
