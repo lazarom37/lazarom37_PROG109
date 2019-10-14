@@ -13,14 +13,23 @@ h2{
     color: #5b19ff;
     font-size: 40px;
 }
-.red-heading{
-    color: red;
+header{
+    background-color: lightsalmon;
+    padding-left: 5px;
+    border-radius: 16px;
 }
 header p{
     font-weight: bold;
     font-style: italic;
     color: blue;
 }
-#new-font{
-    font-family: fantasy, cursive, serif;
+
+footer{
+    background-color: white;
+    border: black solid thin;
+    padding-left: 5px;
+    border-radius: 8px;
+}
+.red-heading{
+    color: red;
 }
