@@ -5,6 +5,9 @@ p{
     color: #632c0c;
     font-size: 25px;
 }
+p.clear{
+    clear: both;
+}
 .byline{
     font-style: italic;
     font-family: sans-serif;
