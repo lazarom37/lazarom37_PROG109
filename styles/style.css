@@ -70,3 +70,14 @@ figure.border {
 .red-heading{
     color: red;
 }
+/*
+.btn-padding{
+    border-width: 10px;
+    border-color: green;
+    border-style: double;
+}
+*/
+.btn-padding:hover {
+    background-color: aqua;
+    border-color: white;
+}
