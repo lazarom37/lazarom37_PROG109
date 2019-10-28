@@ -70,14 +70,31 @@ figure.border {
 .red-heading{
     color: red;
 }
-/*
 .btn-padding{
-    border-width: 10px;
-    border-color: green;
-    border-style: double;
+    border-width: 25px;
+    border-color: #6b72ff;
 }
-*/
+
 .btn-padding:hover {
-    background-color: aqua;
+    background-color: #ff6b72;
     border-color: white;
+}
+.elf-div-border {
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+.btn-margin-padding:active {
+    color: red;
+}
+aside {        
+    background-color: bisque;
+    border: black 1px solid;
+    border-radius: 8px;
+    float: right;
+    font-style: italic;
+    margin-right: 5px;
+    padding: 8px;
+    width: 33%;        
 }
