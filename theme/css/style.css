@@ -26,6 +26,7 @@ h2{
 }
 p{
     font-family: 'Courier New', Courier, monospace;
+    font-style: bold;
     text-align:center;
     font-size: 30px;
     padding-top: 10px;
