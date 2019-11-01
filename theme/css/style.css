@@ -4,15 +4,20 @@
     font-weight: normal;
     font-style: normal;
 }
+html { 
+    background: url("../images/background.png") no-repeat center center fixed; 
+    background-size: cover;
+  }
 
 h1{
     font-family: 'build';
     padding: 50px;
     font-size: 80px;
 }
-p{
-    font-family: 'Courier New';
-    font-size: 20px;
+h2{
+    font-family: 'build';
+    padding: 10px;
+    font-size: 60px;
 }
 p{
     font-family: 'Courier New', Courier, monospace;
@@ -21,6 +26,10 @@ p{
     padding-right: 80px;
     padding-bottom: 50px;
     padding-left: 200px;
+}
+ul{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
 }
 #trait{
     padding-top: 50px;
@@ -32,14 +41,10 @@ p{
     font-size: 35px;
     text-align: center;
 }
-#whole{
-    background-image: url("../images/background.png");
-    background-position: center;
-}
-
 iframe{
     height: 576px;
     width: 1024px;
+    border: none;
     padding-top: 50px;
     padding-right: 80px;
     padding-bottom: 50px;
