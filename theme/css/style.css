@@ -36,12 +36,9 @@ h2{
 p{
     font-family: 'Courier New', Courier, monospace;
     font-style: bold;
-    text-align:center;
+    text-align: left;
     font-size: 30px;
-    padding-top: 10px;
-    padding-right: 80px;
-    padding-bottom: 10px;
-    padding-left: 200px;
+
     float: middle;
 }
 ul{
@@ -53,8 +50,6 @@ ul{
     height: 360px;
 }
 .thumbnail{
-    height: 720px;
-    width: 1280px;
     float: right;
 }
 .tf2build{
@@ -69,7 +64,9 @@ ul{
     margin-right: auto;
     width: 50%;
 }
-.weapon{
+.weaponvid{
+    height: 480px;
+    width: 720px;
     float: left;
 }
 #trait{
