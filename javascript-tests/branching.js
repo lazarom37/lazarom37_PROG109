@@ -14,7 +14,7 @@ height = 25;
 if (height >= 5) {
     console.log('We have a big one');
 } else if (height >= 0) {
-    console.log('We have a little one');
+    console.log('Bigger than 0');
 } else {
     console.log('We have a negative number or invalid number')
 }
@@ -43,11 +43,11 @@ window.onload = () => {
     const simpleBranchDisplay = document.getElementById('simpleBranchDisplay');
     
     simpleBranchAction.onclick = (event) => {
-        let height = 4;
+        let height = 25;
         if (height >= 5) {
-            simpleBranchDisplay.textContent = 'We have a big one';
+            simpleBranchDisplay.textContent = 'We have 25 baybee!!!!';
         } else {
-            simpleBranchDisplay.textContent = 'We have a little one';
+            simpleBranchDisplay.textContent = 'We DON"T have 25??';
         }   
     }
 }
