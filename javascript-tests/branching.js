@@ -19,7 +19,7 @@ if (height >= 5) {
     console.log('We have a negative number or invalid number')
 }
 
-height = 'little';
+height = '25';
 
 switch(height) {
     case 'little':
@@ -28,6 +28,10 @@ switch(height) {
 
     case ('big'):
         console.log('Switch: a big one is five or greater');
+        break;
+
+    case ('25'):
+        console.log("It's 25 baybee!!!!!!!!!!!!!!!!!!!!!");
         break;
 
     default:
