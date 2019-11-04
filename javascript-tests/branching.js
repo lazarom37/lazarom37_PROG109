@@ -10,7 +10,7 @@ if (height >= 5) {
     console.log('We have a little one');
 }
 
-height = 6;
+height = 25;
 if (height >= 5) {
     console.log('We have a big one');
 } else if (height >= 0) {
