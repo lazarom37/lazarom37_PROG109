@@ -4,7 +4,7 @@ window.onload = () => {
     const listButton = document.getElementById('runForLoop');
 
     listButton.onclick = () => {
-        const myList = document.getElementById('myListt');
+        const myList = document.getElementById('myList');
         let totalLoop = 0;
         if (totalLoop <= 5){
             let i = i + 1;
