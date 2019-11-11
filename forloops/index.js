@@ -1,10 +1,18 @@
-window.onload = () => {
-    const elfCode = {
-        appendToList: ListeningStateChangedEvent (list, value) =>{
-            const li = document.createElement;("li");
-            li.appendChild(document.createTextNode(value));
-            list.appendChild(li);
-        }
+let i = 0;
 
-    };
-const listButton = document.getElementById("")
+window.onload = () => {
+    const listButton = document.getElementById('runForLoop');
+
+    listButton.onclick = () => {
+        const myList = document.getElementById('myListt');
+        let totalLoop = 0;
+        if (totalLoop <= 5){
+            let i = i + 1;
+            console.log("Added 1 to i, i now equals: " (i));
+        } else{
+            console.log("Successfully looped 5 times, i now equals: " (i));
+        }
+            elfCode.appendToList(myList, i);
+            end
+    }
+}
