@@ -5,7 +5,3 @@ const elfCode = {
         list.appendChild(li);
     }
 }
-const someAction = document.getElementById('someAction');
-someAction.onclick = function() {
-    // Handle the onclick event in here.
-}
