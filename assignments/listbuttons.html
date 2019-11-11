@@ -2,10 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>List Buttons</title>
     <link href=../styles/style.css rel="stylesheet">
+    <script src="listbuttons.js"></script>
+    <script src="elf-code.js"></script>
+
 </head>
 <body>
     <header>
@@ -13,11 +16,14 @@
     </header>
 
     <main>
-        <div class="elf-div-border">
-        <button class="btn-padding">Haha button</button>
-        </div>
+        <fieldset>
+            <legend>Enter a string for our list</legend>
+            <button id="set-text" type="button" class="btn-padding">Haha button</button>
+            <button id="add-to-list" type="button" class="btn-padding">Haha TWO</button>
+            <ul id="my-list">
+
+            </ul>
+        </fieldset>
     </main>
 </body>
 </html>
-
-<!--https://www.elvenware.com/teach/assignments/browser/ListButton.html NOTE TO SELF-->
