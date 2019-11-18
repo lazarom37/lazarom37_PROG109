@@ -1,5 +1,5 @@
 body{
-    background-color: #fffbbf;
+    background-color: #612b36;
 }
 p{
     color: #632c0c;
@@ -14,7 +14,7 @@ p.clear{
     font-size: 15px;
 }
 h1{
-    color: #ff0a70;
+    color: #da206d;
     font-size: 50px;
 }
 h2{
@@ -22,14 +22,14 @@ h2{
     font-size: 40px;
 }
 header{
-    background-color: lightsalmon;
+    background-color: rgb(255, 122, 151);
     padding-left: 5px;
     border-radius: 16px;
 }
 header p{
     font-weight: bold;
     font-style: italic;
-    color: blue;
+    color: rgb(124, 18, 18);
 }
 nav {        
     background-color: aliceblue;
@@ -51,7 +51,7 @@ nav li {
 }
   
 main{
-    background-color: #ffe3bf; 
+    background-color: rgb(255, 122, 151); 
 }
 footer{
     background-color: white;
@@ -72,7 +72,7 @@ figure.border {
 }
 .btn-padding{
     border-width: 25px;
-    border-color: #6b72ff;
+    border-color: rgb(163, 65, 122);
 }
 
 .btn-padding:hover {
@@ -99,8 +99,8 @@ aside {
     width: 33%;        
 }
 nav {        
-    background-color:#ffe3bf;
-    border: 1px #6b72ff;
+    background-color:rgb(255, 122, 151);
+    border: 1px rgb(124, 18, 18);
     padding: 8px;
     margin: -1px 0px 0px 0px;
 }
