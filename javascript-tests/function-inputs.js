@@ -22,8 +22,9 @@ window.onload = () => {
 
     areaOfTriangleAction.onclick = () => {
         var baseAndHeight = [];
-        baseAndHeight.push(document.getElementById('baseOfTriangleInput'));
-        baseAndHeight.push(document.getElementById('heightOfTriangleInput'));
+        baseAndHeight = document.getElementById('baseOfTriangleInput');
+        baseAndHeight = document.getElementById('heightOfTriangleInput');
+        console.log(baseAndHeight);
         const areaOfTriangleDisplay = document.getElementById('areaOfTriangleDisplay');
         
         areaOfTriangleDisplay.textContent = areaOfTriangle(baseAndHeight.value);
@@ -34,11 +35,11 @@ window.onload = () => {
     document.getElementById('areaOfCircleAction');
 
     areaOfCircleAction.onclick = () => {
-    const areaOfCircleInput = document.getElementById('areaOfCircleInput');
-    const areaOfCircleDisplay = document.getElementById('areaOfCircleDisplay');
+        const areaOfCircleInput = document.getElementById('areaOfCircleInput');
+        const areaOfCircleDisplay = document.getElementById('areaOfCircleDisplay');
 
-    areaOfCircleDisplay.textContent = areaOfCircle(areaOfCircleInput.value);
-};                                                                                                      /*End of Feet To Inches*/
+        areaOfCircleDisplay.textContent = areaOfCircle(areaOfCircleInput.value);
+};                                                                                                          /*End of Area of Circle*/
 };/*End of windows.onload*/
     const feetToInches = (feet) => {
         return feet * 12;
