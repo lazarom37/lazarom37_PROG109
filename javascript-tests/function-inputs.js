@@ -12,10 +12,10 @@ window.onload = () => {
     document.getElementById('milesToFeetAction');
 
     milesToFeetAction.onclick = () => {
-        const milesToFeetInput = document.getElementById('milesToFeetInput');
+        const milesToFeetInput = document.getElementById('milesToFeetInput'); //Tales 'milesToFeet' id from the html page
         const milesToFeetDisplay = document.getElementById('milesToFeetDisplay');
 
-        milesToFeetDisplay.textContent = milesToFeet(milesToFeetInput.value);
+        milesToFeetDisplay.textContent = milesToFeet(milesToFeetInput.value); // textContent = "change this element you found to what's in the parameter"
     };                                                                                                      /*End of Miles to Feet*/
     const areaOfTriangleAction = 
     document.getElementById('areaOfTriangleAction');
@@ -25,7 +25,7 @@ window.onload = () => {
         baseAndHeight = document.getElementById('baseOfTriangleInput');
         baseAndHeight = document.getElementById('heightOfTriangleInput');
         console.log(baseAndHeight);
-        const areaOfTriangleDisplay = document.getElementById('areaOfTriangleDisplay');
+        const areaOfTriangleDisplay = document.getElementById('areaOfTriangleDisplay'); //what if i used a .this command!!!!!!!!!!!!!!!!!!!!
         
         areaOfTriangleDisplay.textContent = areaOfTriangle(baseAndHeight.value);
         console.log(baseAndHeight);
