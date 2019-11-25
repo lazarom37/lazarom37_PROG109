@@ -8,14 +8,21 @@ window.onload = () => {
         lastName: 'Lazaro',
         sayName: function() {
             console.log(this.firstName + " " + this.lastName);
-            console.log(fullName);
-            simpleObjectDisplay.textContent = fullName;
+            console.log(this.fullName);
+            simpleObjectDisplay.textContent = this.fullName;
         }
     };
 
-    simpleObjectAction.onclick = function() { //DRY - Don't repeat Yourself
+    simpleObjectAction.onclick = function() {
         simpleObject.sayName();
     }
+    functionObjectAction.onclick = function() {
+        functionObject.sayName();
+    }
+    customClassAction.onclick = function() {
+        customClass.sayName();
+    }
+
     
     simpleObject.dynamicMethod = function() {
         console.log('Dynamic Method');
