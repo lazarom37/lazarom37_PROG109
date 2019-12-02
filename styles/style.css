@@ -116,3 +116,11 @@ nav li {
     display: inline;
     padding: 8px;    
 }
+
+.blueBackground {
+    background-color: aqua;
+}
+
+.greenBackground {
+    background-color: green;
+}                
