@@ -66,7 +66,14 @@ figure.border {
     background-color: lightslategray;
     border: black solid thin;
     padding: 5px;
-}                 
+}
+.blueBackground {
+    background-color: aqua;
+}
+
+.greenBackground {
+    background-color: green;
+}
 .red-heading{
     color: red;
 }
@@ -115,12 +122,4 @@ nav ul {
 nav li {
     display: inline;
     padding: 8px;    
-}
-
-.blueBackground {
-    background-color: aqua;
-}
-
-.greenBackground {
-    background-color: green;
-}                
+}         
