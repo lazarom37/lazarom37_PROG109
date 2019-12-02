@@ -14,8 +14,8 @@ p.clear{
     font-size: 15px;
 }
 h1{
-    color: #da206d;
-    font-size: 50px;
+    color: #532735;
+    font-size: 100px;
 }
 h2{
     color: #5b19ff;
@@ -24,7 +24,6 @@ h2{
 header{
     background-color: rgb(255, 122, 151);
     padding-left: 5px;
-    border-radius: 16px;
 }
 header p{
     font-weight: bold;
