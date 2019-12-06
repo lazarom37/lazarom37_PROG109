@@ -10,3 +10,11 @@ The end product of this website will be to publish at least 12 pages total (inde
 pages will cover all 9 playable classes, featuring their own intro, lore and role in gameplay. Two of these
 pages will focus on notable updates to the game over the years, featuring SFM Animations and details
 regarding what changes have occurred.
+
+
+SOURCES OF INFO AND IMAGES
+
+https://wiki.teamfortress.com/wiki/Main_Page
+-> https://wiki.teamfortress.com/wiki/Wallpapers
+http://getwallpapers.com/collection/tf2-wallpapers-1920x1080
+https://wall.alphacoders.com/by_sub_category.php?id=170165&name=Team+Fortress+2+Wallpapers
