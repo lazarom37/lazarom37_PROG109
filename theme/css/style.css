@@ -4,89 +4,183 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'professor';
     src: url('../fonts/tf2professor.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-aside{
+
+aside {
     float: right;
 }
-div{
+
+div {
     padding-top: 10px;
     padding-right: 80px;
     padding-bottom: 10px;
     padding-left: 10px;
 }
-html { 
-    background: url("../images/background.png") no-repeat center center fixed; 
-    background-size: cover;
-  }
 
-h1{
+html {
+    background: url("../images/background.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1 {
     padding: 50px;
     font-size: 80px;
 }
-h2{
+
+h2 {
     font-family: 'build';
     padding: 10px;
     font-size: 60px;
 }
-p{
+
+p {
     font-family: 'Courier New', Courier, monospace;
     font-style: bold;
     text-align: left;
     font-size: 30px;
-
-    float: middle;
 }
-ul{
+
+ul {
     font-family: 'Courier New', Courier, monospace;
     font-size: 75px;
 }
-.gallery{
+
+html {
+    background: url("../images/background.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+a {
+    color: yellow;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    border: none;
+    width: 1280px;
+    height: 720px;
+    padding-top: 40px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+}
+
+.ulCenter {
+    width: 70%;
+    margin: auto;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-family: 'build';
+    font-size: 72px;
+    text-align: center;
+}
+
+.other {
+    font-size: 50px;
+    font-family: 'build';
+    background-color: rgb(189, 27, 27);
+    padding: 10px;
+    border: 10px;
+}
+
+.welcome {
+    position: center;
+    font-family: 'build';
+    font-size: 72px;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.welcomeImage {
+    padding: 20px;
+    margin: 20px;
+}
+
+.selectClass {
+    object-fit: cover;
+    padding: 35px;
+    margin: 20px;
+    font-size: 70px;
+    font-family: 'professor';
+    background-color: rgb(189, 27, 27);
+    width: 500px;
+    height: 250px;
+    margin: 20px;
+    float: left;
+    width: 22.22%;
+    padding: 5px;
+    text-align: center;
+}
+
+.defense {
+    align-items: center;
+}
+
+.gallery {
     width: 640px;
     height: 360px;
 }
-.thumbnail{
+
+.thumbnail {
     float: right;
 }
-.tf2build{
+
+.tf2build {
     font-family: 'build';
 }
-.tf2prof{
+
+.tf2prof {
     font-family: 'professor';
 }
-.middle{
+
+.middle {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
-.weaponvid{
+
+.weaponvid {
     height: 480px;
     width: 720px;
     float: left;
 }
-#trait{
+
+@font-face {
+    font-family: 'build';
+    src: url('../fonts/tf2build.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'professor';
+    src: url('../fonts/tf2professor.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#trait {
     padding-top: 50px;
     text-align: left;
 }
-#description{
+
+#description {
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
     font-size: 25px;
     text-align: center;
-}
-iframe{
-    display: block;
-    margin: 0 auto;
-    height: 768px;
-    width: 1366px;
-    border: none;
-    padding-top: 40px;
-    padding-right: 80px;
-    padding-bottom: 40px;
-    padding-left: 80px;  
 }
